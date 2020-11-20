@@ -4,15 +4,15 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
+
+body {
+    background-color: #d9dcd6;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h1 {
     font-size: 48px;
 }
 
+/* Different background color in a few characters in the header "Horiseon" */
 .seo {
     color: #d9dcd6;
 }
@@ -48,8 +49,11 @@ p {
     font-size: 16px;
 }
 
+.clearfix {
+    overflow: auto;
+  }
 
-/* 3 Sections - top right */
+/* 3 Sections in the top right header */
 .topheads {
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -57,24 +61,19 @@ p {
     float: right;
 }
 
-.left {
-    float: left;
-    width: 100%;
+.topheads ul {
+    list-style-type: none;
+    font-size: 20px;    
 }
 
-.middle {
-    float: middle;
-    width: 100%;
-}
-
-.right {
-    float: right;
-    width: 100%;
+.topheads ul li {
+    display: inline-block;
+    margin-right: 25px;
 }
 
 
 /* Main Cover and 3 Sections - bottom left */
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -92,33 +91,13 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization {
+.content-info {
     margin-bottom: 20px;
     padding: 50px;
     background-color: #0072bb;
     height: 300px;
 }
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    background-color: #0072bb;
-    height: 300px;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    background-color: #0072bb;
-    height: 300px;
-}
-.social-media-marketing img {
+.content-info img {
     max-height: 200px;
 }
 
@@ -137,7 +116,7 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    clear: fix;
     float: right;
     width: 20%;
     height: 100%;
@@ -145,34 +124,19 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead img {
+.benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {    
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* footer info at the bottom */
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} 
-
-
-/* The footer info at the bottom of the page */
-.footer {
+footer {
     padding: 30px;
+    color: #000000;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
     text-align: center;
 }
-
-.footer h2 {
-    font-size: 20px;
-}
-

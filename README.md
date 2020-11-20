@@ -2,12 +2,27 @@
 
 ## Summary
 
-My objective was was to group sections together so that the review can see at a glance what I did with ease.  I also spent much time merging many of the codes together where many were redundant and/or wasn't needed at all.
+I was able to group various sections together with common names so that they will be easy to identify when needing to edit.
 
 # The top right section
 
-I had the hardest time using the div code to try and get those three titles side by side.  I created a few more classes to get that section to float (you will see my float classes).
+I changed the header from a .div to an element.  I also called the li group "topheads" as one div.
 
-# The branding section
+# the Contents section
 
-Was very difficult in that I tried mergining many of the codes.  I was able to delete many of codes that were redundant and moved a couple of id tags that weren't used. 
+All three div classes were changed to "content-info", along with the img file.  If any changes need to be made to these three sections, you only need to make it one time.  This is especially true when it comes to margin/padding.
+
+# the Benefits section
+
+I did applied the same logic to this section like I did with the Contents section.  However, it is a little different.  I removed all the separate divs with the different names and created just ONE div and called it "benefits-info".  Again, any changes that need to be made (in terms of spacing), can be made on time.
+
+# the footer at the bottom of the page
+
+I cannot seem to fix the footer where it should be pushed down past the third content area ("Social Media Marketing").  I tried using a container to add more space down at the bottom of the page. But that wasn't working.  I decided to keep the "box-sizing: border box"
+
+## Link to Homework
+https://github.com/Drewski419/Code-Refactor
+
+## Pictures
+Code-Refactor/assets/images
+
