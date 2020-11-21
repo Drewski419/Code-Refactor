@@ -26,5 +26,11 @@ https://github.com/Drewski419/Code-Refactor
 
 # Pictures
 
-Code-Refactor/assets/images
+[ScreenShot](assets/images/brand-awareness.png)
+[ScreenShot](assets/images/cost-management.png)
+[ScreenShot](assets/images/digital-marketing-meeeting.jpg)
+[ScreenShot](assets/images/lead-generation.png)
+[ScreenShot](assets/images/online-reputation-management.jpg)
+[ScreenShot](assets/images/search-engine-optimization.jpg)
+[ScreenShot](assets/images/social-media-marketing.png)
 
